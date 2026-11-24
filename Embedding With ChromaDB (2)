@@ -1,0 +1,26 @@
+Store data in ChromaDB
+Vector Database
+What is ChromaDB?
+
+ChromaDB is a vector database. It stores text, embeddings and metadata so that we can retrieve relevant information later.
+
+1. Open app.py and replace the code with this:
+import chromadbimport ollama# Create ChromaDB clientclient = chromadb.PersistentClient(path="./chroma_db")# Create collectioncollection = client.get_or_create_collection(    name="sanaatana")# Sample documenttext = "Sanaatana provides pooja materials in Shivamogga."# Generate embeddingresponse = ollama.embeddings(    model="nomic-embed-text",    prompt=text)vector = response["embedding"]# Store in ChromaDBcollection.add(    ids=["doc1"],    documents=[text],    embeddings=[vector])print("Document successfully stored in ChromaDB!")print("Total documents:", collection.count())
+
+
+
+2. Run this command:
+python app.py
+
+
+Expected output
+Document successfully stored in ChromaDB!
+Total documents: 1
+
+
+3. What did we achieve?
+- Created a ChromaDB database.
+- Created a collection named sanaatana.
+- Generated an embedding.
+- Stored the document and its vector.
+- Saved the database locally in chroma_db.
