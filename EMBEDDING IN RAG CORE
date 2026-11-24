@@ -1,0 +1,15 @@
+Generate Embeddings
+Core RAG component
+1. What are embeddings?
+
+Embeddings convert text into numerical vectors (lists of numbers).
+
+Example:
+Input:
+Sanaatana provides pooja materials.
+
+Output:
+[0.21, -0.45, 0.78, 0.12, ...]
+
+
+These numbers represent the semantic meaning of the text.
