@@ -1,0 +1,8 @@
+Store Embeddings in ChromaDB
+What is ChromaDB?
+
+ChromaDB is a vector database. It stores:
+- Text documents
+- Embedding vectors
+- Metadata
+ನಾವು generate ಮಾಡಿದ embeddings ಅನ್ನು ಇಲ್ಲಿ store ಮಾಡುತ್ತೇವೆ.
