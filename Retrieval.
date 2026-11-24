@@ -1,0 +1,11 @@
+Retrieval ==Semantic Search (Retrieval):-
+Semantic Search (Retrieval)
+Important RAG component
+What is Semantic Search?
+
+Semantic search finds information based on meaning rather than just matching exact words.
+
+Example:
+- Stored document: "Sanaatana provides pooja materials."
+- Your question: "What products are available for worship?"
+Even though the words are different, semantic search can find the relevant document.
