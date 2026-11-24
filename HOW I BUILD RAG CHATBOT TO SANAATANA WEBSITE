@@ -1,0 +1,29 @@
+Collected information from the Sanaatana website.
+
+
+
+Created a knowledge base using text documents.
+
+
+
+Divided the documents into smaller chunks.
+
+
+
+Converted the chunks into embeddings.
+
+
+
+Stored the embeddings in ChromaDB.
+
+
+
+Retrieved relevant information when a user asked a question.
+
+
+
+Sent the retrieved information to Llama 3.2.
+
+
+
+Generated answers using the RAG pipeline.
