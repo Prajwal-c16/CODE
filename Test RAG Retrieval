@@ -1,0 +1,9 @@
+Expected result
+It should retrieve relevant information about:
+- Purohit Booking
+- Pooja Materials
+- Homa Materials
+- Shraddha materials
+- Vastu and Astrology
+- Brass, Copper and Bronze articles
+The exact five chunks may differ depending on semantic similarity.
