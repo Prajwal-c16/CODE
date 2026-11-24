@@ -1,0 +1,11 @@
+Connect RAG with Llama 3.2
+Generation – Final RAG component
+What are we going to do?
+
+ಇಲ್ಲಿಯವರೆಗೆ ನಾವು:
+1. Document read ಮಾಡಿದ್ದೇವೆ.
+2. Text chunks ಮಾಡಿದ್ದೇವೆ.
+3. Embeddings generate ಮಾಡಿದ್ದೇವೆ.
+4. ChromaDB ನಲ್ಲಿ store ಮಾಡಿದ್ದೇವೆ.
+5. Relevant information retrieve ಮಾಡಿದ್ದೇವೆ.
+ಈಗ retrieved information ಅನ್ನು Llama 3.2 ಗೆ ಕಳುಹಿಸಿ AI answer generate ಮಾಡಿಸೋಣ.
