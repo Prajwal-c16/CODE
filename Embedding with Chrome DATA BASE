@@ -1,0 +1,44 @@
+Super --RAG system ನ next important component ಶುರು.
+
+Step 9: Store Embeddings in ChromaDB**
+
+What is ChromaDB?
+
+ChromaDB is a vector database. It stores:
+
+- Text documents
+- Embedding vectors
+- Metadata
+
+ನಾವು generate ಮಾಡಿದ embeddings ಅನ್ನು ಇಲ್ಲಿ store ಮಾಡುತ್ತೇವೆ.
+
+
+ಹಿಂದಿನ code remove ಮಾಡಿ ಈ code paste ಮಾಡಿ.
+
+```
+import chromadbimport ollama# Create ChromaDB clientclient = chromadb.PersistentClient(path="./chroma_db")# Create collectioncollection = client.get_or_create_collection(    name="sanaatana_knowledge")# Sample documenttext = "Sanaatana provides pooja materials."# Generate embeddingresponse = ollama.embeddings(    model="nomic-embed-text",    prompt=text)vector = response["embedding"]# Store in ChromaDBcollection.add(    ids=["doc1"],    documents=[text],    embeddings=[vector])print("Document stored successfully!")print("Total documents:", collection.count())
+```
+
+2. Run the code
+
+```
+python app.py
+```
+
+Expected output
+
+```
+Document stored successfully!
+Total documents: 1
+```
+
+3. What did we achieve?
+
+1. Created a ChromaDB database.
+2. Created a collection.
+3. Generated an embedding.
+4. Stored the document and vector.
+5. Saved the database locally in `chroma_db`.
+
+Important: This step uses `collection.add()`. If you run the same code again, it may report a duplicate ID. That's okay; we'll handle that properly later.
+
