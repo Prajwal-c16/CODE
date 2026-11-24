@@ -1,0 +1,283 @@
+# **Your Personalized RAG Development Roadmap**
+
+
+
+Advanced starting level
+
+Free tools
+
+
+
+Bro, based on your answers, you don't need to spend weeks learning Python basics, LLM fundamentals or embeddings from scratch.
+
+You already have:
+
+- Advanced Python knowledge.
+- Good understanding of LLMs.
+- Experience running Llama 3.2 using Ollama.
+- Basic knowledge of embeddings and vector databases.
+
+**Our goal is to make you capable of building production-oriented RAG applications independently.**
+
+We'll follow a practical, project-based approach using Python and local AI tools.
+
+## **1. Technology stack**
+
+[File:Python logo 01.svg - Wikimedia Commons](https://images.openai.com/static-rsc-4/4WQnbUUJdvO4G_O54H-9RXYeiNC8ap-hadl7zQO_37z43QV44clQv_3mffdRKUsamUYFp5veqRIRVDSmAnDHlkj1JtcAh46t9rVGeEsTz7Kfg4qMWcGYIrrsCkO7nIRnHcOOcRu-Lm-tFOE47ydEtspq6XPPqxxyX0kFOlIlqkM?purpose=inline)
+
+**Python**
+
+Core programming
+
+Ready
+
+[library](https://images.openai.com/static-rsc-4/iC1pWAxAtGlF4Ppu29pYJyVUYAbL82h0-gEOW2HQi0zMl9OmzSvHrPi1eTJDH-AVbmsne3GGNBazLlCcbxkWQRLQOFsa4cFgyFS1jyYu5fe69eCBdVZE0k1UFHCLXSwVpZTS1U9emNxTbqerTeI9EEnS2WHR7fvgsEfo6fwCP3o?purpose=inline)
+
+**Ollama + Llama 3.2**
+
+Local LLM inference
+
+Ready
+
+[Chroma Logo PNG Vector, Icon Free Download](https://images.openai.com/static-rsc-4/AYHZwvuCFfJIHfV_-z3-S-PjpXvrgkkOQ2fHr56_lygPfO7TpdM_bBtOsp9yAmtXLPk0fJSZJJv0hTYOiJJ9M0CV-zoH2UifrJimJcvm9jWCfD4MoxUx0ayuyEvgOGeSrueETi4aZcWwenmdkFB86gclumUk0GT_FnnmM5A0yoE?purpose=inline)
+
+**ChromaDB**
+
+Vector storage and retrieval
+
+[LangChain Logo PNG Vector (SVG) Free Download](https://images.openai.com/static-rsc-4/z5XkAAVhCgViUN2BonrSvbHFna5avSh6A3TCGPtvXScnnJLdrLJZZXc2ZIpgqqNKgOFs6peovYgYLZLfp3FFzkfLTUHAlUf-h-eJk7ETHNjJgRAjE8FPYIllzBj4jPA8ogPgkW9IQkg2vDhZiZPqjtZs-MXYRjuioBL63zxQd3U?purpose=inline)
+
+**LangChain**
+
+RAG orchestration
+
+[FastAPI 422? 라우팅 순서부터 확인하기 | dontech](https://images.openai.com/static-rsc-4/Y7GMfkhvXDZkM80YHXEC3HqQPykiOqx_rEyOHtCoiJS-aMEFI0NdaVPJys3SaSCN77c1efQZW-RBtba8W80DlrEy5c5_Vj-izpK6J_-Jd87LwZmPBsoUczE_7NZ9w9KyXe9uUBcFTI0FaKuKHxIS9rMAmsuS3DEO2O0i8y8Axsc?purpose=inline)
+
+**FastAPI**
+
+Backend API
+
+All these tools can be used without paid API keys. Your 8 GB RAM laptop will require small models and careful memory management.
+
+## **2. Eight-week learning roadmap**
+
+**Week 1 — RAG internals using pure Python**
+
+High priority
+
+- RAG architecture and pipeline.
+- Document ingestion.
+- Text chunking strategies.
+- Chunk size and overlap.
+- Build a simple document search system.
+
+  Deliverable: Document loader + text chunker.
+
+**Week 2 — Embeddings and semantic search**
+
+- Embedding models.
+- Ollama embedding integration.
+- Cosine similarity.
+- Semantic search.
+- Compare keyword search vs semantic search.
+
+  Deliverable: Search your documents using natural language.
+
+**Week 3 — Vector databases**
+
+- ChromaDB architecture.
+- Collections and documents.
+- Metadata filtering.
+- Persistent storage.
+- Similarity search and top-K retrieval.
+
+  Deliverable: Persistent vector database.
+
+**Week 4 — Build RAG from scratch**
+
+- Connect retriever with Ollama.
+- Construct prompts dynamically.
+- Inject retrieved context.
+- Generate answers.
+- Handle questions outside the knowledge base.
+
+  Deliverable: Working RAG chatbot without LangChain.
+
+**Week 5 — Advanced RAG**
+
+Important for AI engineering
+
+- Recursive chunking.
+- Hybrid search (keyword + vector).
+- Reranking.
+- Query transformation.
+- Multi-query retrieval.
+- Context compression.
+
+  Deliverable: Improved retrieval accuracy.
+
+**Week 6 — LangChain and LangGraph**
+
+- Document loaders.
+- Text splitters.
+- Embedding integrations.
+- Retrievers and chains.
+- LangGraph basics for multi-step workflows.
+
+  Deliverable: Rebuild your RAG application with LangChain.
+
+**Week 7 — RAG evaluation and optimization**
+
+- Retrieval precision and recall.
+- Faithfulness and relevance.
+- RAGAS fundamentals.
+- Hallucination reduction.
+- Latency and memory optimization.
+
+  Deliverable: Test and measure RAG quality.
+
+**Week 8 — Production-oriented RAG application**
+
+- FastAPI backend.
+- Upload PDF and DOCX files.
+- Chat interface.
+- Source citations.
+- Error handling.
+- Local deployment and GitHub documentation.
+
+  Deliverable: Complete portfolio-ready RAG project.
+
+## **3. Your practical project**
+
+We'll build this project using your existing Sanaatana business knowledge.
+
+[How to Improve AI Chatbot Accuracy: RAG, Source Citations, and Better Training Data](https://images.openai.com/static-rsc-4/36-ptkHrSYjytjr9mND-ww_fuFAuydJVbHCCoXQqCFqYkDRuJfPjyxoC5YErVPQ8Of8-FHVDWrCX6A_3tZVf5C0A5nkDRMUperm4umZPZxADsZhRCYzB8cDx4i514rqv1BRmEMBsI2KbD4fBUR_vumO3-LucycNcWDXd4VGRR7E?purpose=inline)
+
+[denser.ai](https://denser.ai/blog/improve-ai-chatbot-accuracy/?utm_source=chatgpt.com)
+
+# **Sanaatana AI Knowledge Assistant**
+
+**Features**
+
+- Upload Pooja-related PDF, DOCX and TXT files.
+- Ask questions in Kannada and English.
+- Retrieve information from your own documents.
+- Generate answers using Llama 3.2.
+- Display the source document and relevant passages.
+- Avoid making up answers when information is unavailable.
+
+**Architecture**
+
+User Interface
+
+FastAPI Backend
+
+RAG Pipeline
+
+**ChromaDB**
+
+Retrieval
+
+**Ollama**
+
+Generation
+
+## **4. Initial software setup**
+
+We'll use these models:
+
+| Purpose    | Model              |
+| ---------- | ------------------ |
+| LLM        | `llama3.2:3b`      |
+| Embeddings | `nomic-embed-text` |
+| Vector DB  | ChromaDB           |
+
+Install the initial Python packages:
+
+```
+pip install ollama chromadb
+```
+
+Download the models:
+
+```
+ollama pull llama3.2:3b
+ollama pull nomic-embed-text
+```
+
+Later we'll add LangChain, FastAPI, document parsers and evaluation libraries.
+
+Official learning resources:
+
+- [Ollama Documentation](https://docs.ollama.com/?utm_source=chatgpt.com)
+- [ChromaDB Documentation](https://docs.trychroma.com/?utm_source=chatgpt.com)
+- [LangChain Documentation](https://python.langchain.com/docs/?utm_source=chatgpt.com)
+- [RAGAS Documentation](https://docs.ragas.io/?utm_source=chatgpt.com)
+
+## **5. Daily study schedule**
+
+Recommended: 1.5–2 hours per day.
+
+| Time   | Activity             |
+| ------ | -------------------- |
+| 20 min | Learn concepts       |
+| 40 min | Practical coding     |
+| 30 min | Build project        |
+| 15 min | Debug and revise     |
+| 15 min | GitHub documentation |
+
+## **6. Progress tracker**
+
+**Your RAG progress**
+
+# **0%**
+
+0 of 14 milestones completed
+
+Understand RAG architecture
+
+Implement document loading
+
+Implement chunking
+
+Generate embeddings
+
+Understand cosine similarity
+
+Build ChromaDB collection
+
+Implement semantic retrieval
+
+Connect Ollama with retrieval
+
+Build complete RAG pipeline
+
+Implement advanced retrieval
+
+Learn LangChain
+
+Evaluate RAG performance
+
+Build FastAPI backend
+
+Complete Sanaatana AI Assistant
+
+## **7. Let's begin: Week 1, Day 1**
+
+Our first lesson will be:
+
+**How does a RAG system work internally?**
+
+I want you to understand these five components deeply:
+
+1. Document ingestion
+2. Text chunking
+3. Embedding generation
+4. Vector retrieval
+5. LLM response generation
+
+My teaching approach will be: concept → simple example → Python implementation → practical task.
+
+**One important rule:** Don't just copy code from tutorials. Understand every component and build it yourself.
+
+Let's target becoming capable of developing your own RAG applications in 8 weeks.
