@@ -9,3 +9,13 @@ What are we going to do?
 4. ChromaDB ನಲ್ಲಿ store ಮಾಡಿದ್ದೇವೆ.
 5. Relevant information retrieve ಮಾಡಿದ್ದೇವೆ.
 ಈಗ retrieved information ಅನ್ನು Llama 3.2 ಗೆ ಕಳುಹಿಸಿ AI answer generate ಮಾಡಿಸೋಣ.
+
+Highlights for building an RAG system :
+Understand the final process
+User Question
+Embedding Model
+ChromaDB Retrieval
+Retrieved Context + Question
+Llama 3.2
+
+Final AI Answer
