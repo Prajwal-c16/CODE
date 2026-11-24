@@ -1,2 +1,20 @@
 Build an Interactive RAG Chatbot
 Goal: Ask questions continuously without editing Python code every time.
+
+
+
+Your progress
+Basic RAG pipeline completed
+You've implemented:
+- Document loading
+- Chunking
+- Embeddings
+- ChromaDB storage
+- Semantic retrieval
+- LLM generation
+- Interactive question answering
+One important note: This is a basic RAG prototype, not yet a production-ready system.
+
+Run it and tell me whether your chatbot responds to multiple questions.
+
+Next, we'll improve it to retrieve multiple relevant chunks and answer using the full Sanaatana knowledge base.
