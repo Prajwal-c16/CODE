@@ -1,0 +1,34 @@
+Text Chunking
+RAG Core Concept
+What is Chunking?
+
+Chunking means splitting a large document into smaller pieces of text.
+
+Example:
+
+Original document:
+Sanaatana provides pooja materials.
+Sanaatana provides homa materials.
+Sanaatana provides flowers.
+Sanaatana provides purohit booking.
+
+
+After chunking:
+Chunk 1:
+Sanaatana provides pooja materials.
+
+Chunk 2:
+Sanaatana provides homa materials.
+
+Chunk 3:
+Sanaatana provides flowers.
+
+Chunk 4:
+Sanaatana provides purohit booking.
+
+
+Why do we need chunking?
+1. Easier document searching.
+2. Better retrieval accuracy.
+3. Reduces unnecessary context.
+4. Helps LLMs process relevant information.
